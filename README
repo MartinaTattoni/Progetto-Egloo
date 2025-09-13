@@ -1,0 +1,26 @@
+// README
+
+// Progetto Egloo - Sito Web "L'arte del Sorso"
+
+// Descrizione del Progetto:
+
+// Per quanto riguarda la scrittura del codice ho voluto optare per un approccio semplice e diretto, utilizzando HTML, CSS e JavaScript puro senza l'ausilio di framework o librerie esterne. Questo mi ha permesso di avere un controllo completo sul progetto e di comprendere a fondo ogni aspetto del codice.
+
+// Ho cercato di mantenere il codice il più leggibile e organizzato possibile, suddividendo le funzionalità in sezioni chiare e commentando le parti più complesse per facilitare la comprensione futura.      
+
+// Ho implementato un design responsive per garantire una buona esperienza utente su dispositivi di diverse dimensioni, utilizzando media queries e tecniche di layout flessibili.
+
+// Nello specifico ci tenevo a spiegare alcune scelte che ho fatto riguardo il progetto: soprattutto in merito al file main.js
+
+
+// Il Js è stato strutturato in 3 sezioni principali, per gestire le interazioni dell'utente in modo intuitivo e fluido. Ho implementato un menu a tendina che si apre al click, garantendo che solo un menu sia aperto alla volta e che si chiuda automaticamente quando l'utente clicca all'esterno. Questo migliora l'usabilità e mantiene l'interfaccia pulita.
+
+// Inoltre, ho creato delle card di dettaglio che si aprono al click, fornendo informazioni aggiuntive in modo elegante e non invasivo. Ho incluso un messaggio di dettaglio all'interno delle card per arricchire l'esperienza dell'utente e invitarlo a partecipare alle degustazioni di vini.
+
+// Infine, ho sviluppato un menu mobile che si attiva con un'icona hamburger, garantendo che il sito sia facilmente navigabile anche su dispositivi mobili. Ho fatto in modo che il menu si chiuda automaticamente quando l'utente seleziona una voce o clicca all'esterno, migliorando ulteriormente l'esperienza utente.
+
+// In sintesi, il progetto è stato realizzato con l'obiettivo di creare un sito web funzionale, esteticamente piacevole e facile da usare, sfruttando al massimo le potenzialità del codice puro e mantenendo un'attenzione particolare all'esperienza dell'utente. 
+
+// Ho preferito seguire le linee guida rispetto al file che mi è stato fornito, apportando alcune modifiche solo per quanto riguarda l'aggiunta delle immagini e di alcuni dettagli di testo, come ad esempio le sezioni di dettaglio delle card, che ho voluto arricchire con un messaggio più coinvolgente e invitante per l'utente. Non ho voluto quindi aggiungere funzionalità extra o modificare radicalmente il design, ma piuttosto migliorare l'esperienza complessiva del sito mantenendo il progetto fedele alle indicazioni iniziali.
+
+// Spero che il progetto rispecchi le aspettative e dimostri le mie competenze nel campo dello sviluppo web.
