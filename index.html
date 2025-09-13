@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>L’Arte del Sorso</title>
+    
+    <link rel="stylesheet" href="style.css"/>
+    
+    <!-- Font di google -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+    
+    <!-- NAVBAR -->
+    
+    <header class="navbar">
+        
+        
+        <!-- Link a sinistra -->
+        
+        <nav class="nav-left">
+            
+            <div class="dropdown">
+                
+                <button class="dropbtn">IDENTITÀ ▾</button>
+                
+                <div class="dropdown-inside">
+                    
+                    <a href="#">Chi siamo</a>
+                    
+                    <a href="#">Storia</a>
+                    
+                </div>
+                
+            </div>
+            
+            <a href="#">VINI</a>
+            
+            <a href="#">DEVIN COSMETICA</a>
+            
+        </nav>
+        
+        
+        <!-- Sezione centrale -->
+        
+        <div class="nav-center">
+            
+            <a href="#">
+                
+                <img src="media/logo.png" alt="Google Logo" class="logo">
+                
+            </a>
+            
+        </div>
+        
+        
+        <!-- Link a destra -->
+        
+        <nav class="nav-right">
+            
+            <div class="dropdown">
+                
+                <button class="dropbtn">ESPERIENZA ▾</button>
+                
+                <div class="dropdown-inside">
+                    
+                    <a href="#">Degustazioni</a>
+                    
+                    <a href="#">Respira la natura</a>
+                    
+                </div>
+                
+            </div>
+            
+            <a href="#">GIFT CARD</a>
+            
+            <a href="#">STORE LOCATOR</a>
+            
+            <div class="dropdown language-dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-globe"></i> IT ▾</button>
+                <div class="dropdown-inside">
+                    <a href="#" data-lang="it">Italiano</a>
+                    
+                    
+                </div>
+            </div>
+            
+        </nav>
+
+        
+        
+    </header>
+
+
+    
+    
+    <!-- SEZIONE TITOLO E SOTTOTITOLO -->
+    
+    <section>
+        
+        <h1 class="titolo">Prenota subito l’esperienza più adatta a te!</h1>
+        
+        <h3 class="sottotitolo">Ti aspettiamo per farti scoprire il mondo, raccontato dai nostri vini e dalla nostra storia.</h3>
+        
+    </section>
+    
+    <!-- SEZIONE CARD -->
+    
+    <section class="cards-section">
+        
+        <!-- card 1 -->
+        
+        <div class="card">
+            
+            <div class="card-img">
+                
+                <img src="/media/Vino 1.jpg" alt="Immagine esperienza">
+                
+            </div>
+            
+            <div class="card-container">
+                
+                <div class="card-icon">
+                    
+                    <i class="fa-solid fa-wine-glass"></i> <i class="fas fa-clock"></i> 60'
+                    
+                </div>
+                
+                <h3 class="card-title">3 WINES EXPERIENCE</h3>
+                
+                <hr>
+                
+                <p class="card-description">
+                    
+                    Degustazione di tre vini al Rifugio del Vino e visita alla cantina
+                    
+                </p>
+                
+                <p class="price-title">PREZZO</p>
+                
+                <div class="card-price">
+                    
+                    <p class="price">€50,00 a persona</p>
+                    
+                    <p class="box-iva">IVA INCLUSA</p>
+                    
+                </div>
+                
+                <button class="card-button openModal" id="openModal">
+                    
+                    Dettagli <i class="fa-solid fa-arrow-right"></i>
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        <!-- card 2 -->
+        
+        <div class="card">
+            
+            <div class="card-img">
+                
+                <img src="/media/Vino 2.jpg" alt="Immagine esperienza">
+                
+            </div>
+            
+            <div class="card-container">
+                
+                <div class="card-icon">
+                    
+                    <i class="fa-solid fa-wine-glass"></i> <i class="fa-solid fa-utensils"></i> <i class="fas fa-clock"></i> 90'
+                    
+                </div>
+                
+                <h3 class="card-title">5 WINES EXPERIENCE</h3>
+                
+                <hr>
+                
+                <p class="card-description">
+                    
+                    Degustazione di 5 vini del territorio presso il rifugio dei vini in cantina e barricaia
+                    
+                </p>
+                
+                <p class="price-title">PREZZO</p>
+                
+                <div class="card-price">
+                    
+                    <p class="price">€34,00 a persona</p>
+                    
+                    <p class="box-iva">IVA INCLUSA</p>
+                    
+                </div>
+                
+                <button class="card-button openModal" id="openModal">
+                    
+                    Dettagli <i class="fa-solid fa-arrow-right"></i>
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        <!-- card 3 -->
+        
+        <div class="card">
+            
+            <div class="card-img">
+                
+                <img src="/media/vino 3.jpg" alt="Immagine esperienza">
+                
+            </div>
+            
+            <div class="card-container">
+                
+                <div class="card-icon">
+                    
+                    <i class="fa-solid fa-wine-glass"></i> <i class="fa-solid fa-utensils"></i> <i class="fas fa-clock"></i> 90'
+                    
+                </div>
+                
+                <h3 class="card-title">WINE AND CHEESE EXPERIENCE</h3>
+                
+                <hr>
+                
+                <p class="card-description">
+                    
+                    Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita alla cantina e barricaia
+                    
+                </p>
+                
+                <p class="price-title">PREZZO</p>
+                
+                <div class="card-price">
+                    
+                    <p class="price">€45,00 a persona</p>
+                    
+                    <p class="box-iva">IVA INCLUSA</p>
+                    
+                </div>
+                
+                <button class="card-button openModal" id="openModal">
+                    
+                    Dettagli <i class="fa-solid fa-arrow-right"></i>
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        
+    </section>
+    
+    
+    <!-- SEZIONE CARD 2 -->
+    
+    
+    <section class="cards-section">
+        
+        <!-- card 4 -->
+        
+        <div class="card">
+            
+            <div class="card-img">
+                
+                <img src="/media/Vino 4.jpg" alt="Immagine esperienza">
+                
+            </div>
+            
+            <div class="card-container">
+                
+                <div class="card-icon">
+                    
+                    <i class="fa-solid fa-wine-glass"></i> <i class="fa-solid fa-utensils"></i> <i class="fas fa-clock"></i> 100'
+                    
+                </div>
+                
+                <h3 class="card-title">TOP WINES EXPERIENCE</h3>
+                
+                <hr>
+                
+                <p class="card-description">
+                    
+                    Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia
+                    
+                </p>
+                
+                <p class="price-title">PREZZO</p>
+                
+                <div class="card-price">
+                    
+                    <p class="price">€65,00 a persona</p>
+                    
+                    <p class="box-iva">IVA INCLUSA</p>
+                    
+                </div>
+                
+                <button class="card-button openModal" id="openModal">
+                    
+                    Dettagli <i class="fa-solid fa-arrow-right"></i>
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        <!-- card 5 -->
+        
+        <div class="card">
+            
+            <div class="card-img">
+                
+                <img src="/media/Vino 5.jpg" alt="Immagine esperienza">
+                
+            </div>
+            
+            <div class="card-container">
+                
+                <div class="card-icon">
+                    
+                    <i class="fa-solid fa-wine-glass"></i> <i class="fa-solid fa-utensils"></i> <i class="fas fa-clock"></i> 120'
+                    
+                </div>
+                
+                <h3 class="card-title">CÔTEAU LA TOUR EXPERIENCE</h3>
+                
+                <hr>
+                
+                <p class="card-description">
+                    
+                    Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale
+                    
+                    
+                </p>
+                
+                <p class="price-title">PREZZO</p>
+                
+                <div class="card-price">
+                    
+                    <p class="price">€75,00 a persona</p>
+                    
+                    <p class="box-iva">IVA INCLUSA</p>
+                    
+                </div>
+                
+                <button class="card-button openModal" id="openModal">
+                    
+                    Dettagli <i class="fa-solid fa-arrow-right"></i>
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        <!-- card 6 -->
+        
+        <div class="card">
+            
+            <div class="card-img">
+                
+                <img src="/media/Vino 6.jpg" alt="Immagine esperienza">
+                
+            </div>
+            
+            <div class="card-container">
+                
+                <div class="card-icon">
+                    
+                    <i class="fa-solid fa-wine-glass"></i> <i class="fa-solid fa-utensils"></i> <i class="fas fa-clock"></i> 100'
+                    
+                </div>
+                
+                <h3 class="card-title">WINEMAKER’S EXPERIENCE</h3>
+                
+                <hr>
+                
+                <p class="card-description">
+                    
+                    Scopri il mondo, raccontato dal nostro enologo Rafaele, dai vigneti alla cantina.
+                    
+                </p>
+                
+                <p class="price-title">PREZZO</p>
+                
+                <div class="card-price">
+                    
+                    <p class="price">€90,00 a persona</p>
+                    
+                    <p class="box-iva">IVA INCLUSA</p>
+                    
+                </div>
+                
+                <button class="card-button openModal" id="openModal">
+                    
+                    Dettagli <i class="fa-solid fa-arrow-right"></i>
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+        
+        
+    </section>
+    
+    
+    <!-- SEZIONE CARD ORIZZONTALE -->
+    
+    <section class="cards-section-horizontal">
+        
+        <div class="card-horizontal">
+            
+            <div class="card-img-horizontal">
+                
+                <img src="/media/Vino 7.jpg" alt="Immagine esperienza">
+                
+            </div>
+            
+            <div class="card-container-horizontal">
+                
+                <div class="card-content-top">
+                    
+                    <div class="card-icon">
+                        
+                        <i class="fa-solid fa-wine-glass"></i> <i class="fa-solid fa-utensils"></i> <i class="fas fa-clock"></i> 90'
+                        
+                    </div>
+                    
+                    <h3 class="card-title">CÔTEAU LA TOUR EXPERIENCE</h3>
+                    
+                    <hr>
+                    
+                    <p class="card-description">
+                        
+                        Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale
+                        
+                        
+                    </p>
+                    
+                </div>
+                
+                <p class="price-title">PREZZO</p>
+                
+                <div class="card-price">
+                    
+                    <p class="price">€346,00 a persona</p>
+                    
+                    <p class="box-iva">IVA INCLUSA</p>
+                    
+                </div>
+                
+                <button class="card-button openModal" id="openModal">
+                    
+                    Dettagli <i class="fa-solid fa-arrow-right"></i>
+                    
+                </button>
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    
+    
+    <script src="main.js"></script>
+
+    <script src="translation.js"></script>
+    
+    <script src="https://kit.fontawesome.com/546011faf8.js" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>
