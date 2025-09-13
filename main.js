@@ -65,3 +65,20 @@ openBtns.forEach(btn => {
 
 
 
+// MENU MOBILE E DROPDOWN
+
+const hamburger = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-menu');
+const mobileDropdowns = document.querySelectorAll('.mobile-dropdown');
+
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.toggle('show');
+});
+
+
+mobileDropdowns.forEach(drop => {
+  const btn = drop.querySelector('.mobile-dropbtn');
+  btn.addEventListener('click', () => {
+    drop.classList.toggle('show');
+  });
+});

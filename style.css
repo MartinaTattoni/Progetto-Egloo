@@ -1,104 +1,129 @@
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: rgb(245, 245, 245);
+  
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(245, 245, 245);
+  
 }
 
 
 /* NAVBAR */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    padding: 10px 20px;
-    height: 90px;
-    
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  height: 90px;
+  
 }
 
 /* Sinistra e destra */
 
 .nav-left, .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  
 }
 
 .nav-left{
-    
-    margin-left: 50px;
+  
+  margin-left: 50px;
+  
 }
 
 .nav-right{
-    
-    margin-right: 50px;
+  
+  margin-right: 50px;
+  
 }
 
 
 .nav-left a, .nav-right a, .dropbtn {
-    text-decoration: none;
-    color: black;
-    font-weight: 400;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
+  
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  
 }
 
 .nav-left a:hover, .nav-right a:hover, .dropbtn:hover {
-    color: #6d6d6d; 
-    transition-duration: 0.5s;
+  
+  color: #6d6d6d; 
+  transition-duration: 0.5s;
+  
 }
 
 /* Logo centrale */
 
 .nav-center .logo {
-    height: 60px;
-    margin-top: 10px;
-    margin-left: 140px;
+  
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 140px;
+  
 }
 
 .icona-globo {
-    width: 20px;          
-    height: 20px;
-    vertical-align: middle;  
-    margin-top: 20px;
+  
+  width: 20px;          
+  height: 20px;
+  vertical-align: middle;  
+  margin-top: 20px;
+  
 }
 
 /* Dropdown */
 
 .dropdown {
-    position: relative;
+  
+  position: relative;
+  
 }
 
 .dropdown-inside {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #fff;
-    min-width: 130px;
-    max-width: 160px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 6px;
-    z-index: 50;
+  
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 130px;
+  max-width: 160px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  z-index: 50;
+  
 }
 
 .dropdown-inside a {
-    display: block;
-    padding: 10px;
-    color: #000000;
-    text-decoration: none;
+  
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  
 }
 
 .dropdown-inside a:hover {
-    background: #f5f5f5;
-    color: #6d6d6d; 
+  
+  background: #f5f5f5;
+  color: #6d6d6d; 
+  
 }
 
 .dropdown.show .dropdown-inside {
-    display: block;
+  
+  display: block;
+  
 }
 
 
@@ -106,40 +131,45 @@ body {
 /* SEZIONE TITOLO E SOTTOTITOLO */
 
 .titolo{
-
-    text-align: center;
-    margin-top: 190px;
-    margin-bottom: 0px;
-    font-size: 70px;
-    font-weight: 500;
-    color: black;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 4px;
+  
+  text-align: center;
+  margin-top: 190px;
+  margin-bottom: 0px;
+  font-size: 70px;
+  font-weight: 500;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 4px;
+  
 }
 
 .sottotitolo{
-
-    text-align: center;
-    margin-top: 25px;
-    font-size: 22px;
-    font-weight: 500;
-    color: black;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+  
+  text-align: center;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  
 }
 
 
 /* CARD */
 
 .cards-section {
+  
   display: flex;
   justify-content: center;
   gap: 32px; 
   flex-wrap: wrap;
+  
 }
 
 
 .card {
+  
   background-color: #fff;
   width: 450px;
   border-radius: 0px;
@@ -147,69 +177,87 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 60px;
+  
 }
 
 
 .card-img {
+  
   flex: 2.5;
   overflow: hidden;
+  
 }
 
 .card-img img {
+  
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 
 .card-container {
+  
   flex: 3;
   padding: 16px 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 
 .card-icon {
+  
   font-size: 17px;
   color: #888;
   margin-top: 10px;
   margin-bottom: 20px;
+  
 }
 
 .card-icon i {
+  
   margin-right: 5px;
   color: #888;
+  
 }
 
 
 .card-title {
+  
   margin: 0;
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 8px;
   font-family: "Bebas Neue", sans-serif;
+  
 }
 
 
 .card-container hr {
+  
   border: 0;
   border-top: 1px solid #ddd;
   margin: 8px 0px 7px 0px;
+  
 }
 
 
 .card-description {
+  
   font-size: 16px;
-  color: #333
+  color: #333;
   flex-grow: 1;
   font-family: 'Inter', sans-serif;
+  
 }
 
 
 .card-price {
+  
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -218,31 +266,38 @@ body {
 }
 
 .price-title {
+  
   font-size: 16px;
   color: #777;
   letter-spacing: 1px;
   font-weight: 600;
   margin-top: 0px;
+  
 }
 
 .price {
+  
   font-weight: bold;
   color: black;
   font-size: 15px;
   margin-top: 0px;
   margin-bottom: 30px;
+  
 }
 
 .box-iva {
+  
   background-color: #eee;
   padding: 3px 8px;
   border-radius: 4px;
   font-size: 13px;
   margin-top: 0px;
   margin-bottom: 30px;
+  
 }
 
 .card-button {
+  
   display: flex;
   align-items: center;
   justify-content: space-between; 
@@ -255,26 +310,34 @@ body {
   transition: 0.8s;
   font-size: 15px;
   margin-top: auto;
+  
 }
 
 .card-button i {
+  
   margin-left: 8px;
   font-size: 25px;
   transition: transform 0.3s ease;
+  
 }
 
 
 .card-button:hover {
+  
   background-color: black; 
   color: white; 
+  
 }
 
 .card-button:hover i {
+  
   transform: translateX(4px); 
+  
 }
 
 
 .card-horizontal {
+  
   display: flex;
   flex-direction: row;
   width: 100%; 
@@ -286,30 +349,38 @@ body {
   margin: 0 auto;
   margin-top: 60px; 
   margin-bottom: 100px;
+  
 }
 
 
 .card-img-horizontal {
-  flex: 2; /* 2/3 */
+  
+  flex: 2;
   overflow: hidden;
+  
 }
 
 .card-img-horizontal img {
+  
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .card-container-horizontal {
-  flex: 1; /* 1/3 */
+  
+  flex: 1; 
   display: flex;
   flex-direction: column;
   padding: 24px;
+  
 }
 
 
 
 .modal {
+  
   opacity: 0;
   position: fixed;
   top: 0;
@@ -318,19 +389,22 @@ body {
   bottom: 0;
   background-color: rgba(0,0,0,0.7);
   z-index: -1;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .modal.open{
+  
   opacity: 1;
   z-index: 999;
+  
 }
 
 .modal-inner{
-
+  
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
@@ -340,35 +414,41 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; 
+  
 }
 
 .modal-inner h2{
-
+  
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 10px;
   font-family: "Bebas Neue", sans-serif;
-
+  
 }
 
 .modal-inner h3{
+  
   font-size: 17px;
   font-weight: 300;
   font-family: "Inter", sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
+  
 }
 
 .modal-inner p{
+  
   font-size: 15px;
   color: #555;
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 20px;
   font-family: "Inter", sans-serif;
+  
 }
 
 .closeModal {
+  
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -383,45 +463,338 @@ body {
   font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  
 }
 
 
 .closeModal:hover {
+  
   background-color: black; 
   color: white; 
+  
 }
 
 .closeModal:hover i {
+  
   transform: translateX(4px); 
+  
 }
 
 
-@media (max-width: 1000px) {
-  .cards-section {
-    justify-content: center;
-  }
+
+/* MENU COMPLETO A TENDINA  */
+
+.hamburger {
+  
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  
 }
 
-@media (max-width: 700px) {
-  .cards-section {
-    flex-direction: column;
-    align-items: center;
-  }
+
+.hamburger span {
+  
+  display: block;
+  height: 3px;
+  background: black;
+  border-radius: 2px;
+  
 }
+
+
+
+.mobile-menu {
+  
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 90px; 
+  right: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 999;
+  
+}
+
+
+.mobile-menu a, .mobile-dropbtn {
+  
+  padding: 15px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border-bottom: 1px solid white;
+  text-align: left;
+  width: 100%;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+.mobile-menu a:hover, .mobile-dropbtn:hover {
+  
+  background-color: #f5f5f5;
+  
+}
+
+
+.mobile-dropdown-inside {
+  
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.mobile-dropdown.show .mobile-dropdown-inside {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+/* MEDIA QUERY */
 
 @media (max-width: 1500px) {
+  
+  .nav-left, .nav-center, .nav-right {
+    
+    display: none;
+    
+  }
+  
+  .hamburger {
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    
+  }
+  
+  .mobile-menu.show {
+    
+    display: flex;
+    
+  }
+  
   .card-horizontal {
-    flex: 0 0 100%; /* su schermi piccoli diventa full-width */
+    
+    max-width: 990px;
+    max-height: 900px;
+    flex-direction: row;
+    
+  }
+  
+  .card-img-horizontal {
+    
+    flex: 1.7; 
+    
+  }
+  
+  .card-container-horizontal {
+    
+    flex: 1.3;
+    padding: 20px; 
+    
+  }
+  
+  
+}
+
+
+
+@media (max-width: 1200px) {
+  
+  .nav-left, .nav-center, .nav-right {
+    
+    display: none;
+    
+  }
+  
+  .hamburger {
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    
+  }
+  
+  .mobile-menu.show {
+    
+    display: flex;
+    
+  }
+  
+  
+  .card-horizontal {
+    
     flex-direction: column;
+    width: 450px;       
+    max-height: unset;      
+    margin-top: 80px;
+    margin-bottom: 60px;
+    
+  }
+  
+  .card-img-horizontal {
+    
+    width: 100%;
+    height: 300px; 
+    flex: unset;
+    
+  }
+  
+  .card-container-horizontal {
+    
+    padding: 16px 24px; 
+    
+  }
+  
+  .card-container-horizontal .card-content-top {
+    
+    margin-bottom: 20px;
+    
+  }
+  
+  .card-price {
+    
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    
+  }
+  
+  .titolo{
+    
+    text-align: center;
+    margin-top: 190px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 50px;
+    
+  }
+  
+  .sottotitolo{
+    
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  }
+  
+}
+
+
+
+@media (max-width: 500px){
+
+  .card {
+    width: 90%;          
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
 
-  .card-img-horizontal, .card-container-horizontal {
-    flex: unset;
-    width: 100%;
+  .card-img {
+    height: 180px;       
+  }
+
+  .card-container {
+    padding: 12px 16px;  
+  }
+
+  .card-title {
+    font-size: 18px;     
+  }
+
+  .card-description {
+    font-size: 13px;     
+  }
+
+  .price-title {
+    font-size: 14px;
+  }
+
+  .card-price {
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .box-iva {
+    font-size: 12px;
+  }
+
+  .card-button {
+    font-size: 13px;
+    padding: 10px 14px;
+  }
+
+  
+  .card-horizontal {
+              
+    width: 90%;   
+    flex-direction: column; 
+    margin-top: 30px;
+    margin-bottom: 40px;
   }
 
   .card-img-horizontal {
-    height: 250px;
+    
+    height: 200px;    
   }
+
+  .card-container-horizontal {
+    
+    padding: 12px 16px;
+  }
+
+  .card-container-horizontal .card-title {
+    font-size: 18px;
+  }
+
+  .card-container-horizontal .card-description {
+    font-size: 13px;
+  }
+
+  .card-price {
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+  }
+
+  .card-button {
+    font-size: 13px;
+    padding: 10px 14px;
+  }
+
+
 }
+
 
