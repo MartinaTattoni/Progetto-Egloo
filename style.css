@@ -96,8 +96,8 @@ body {
   top: 100%;
   left: 0;
   background: #fff;
-  min-width: 130px;
-  max-width: 160px;
+  min-width: 100px;
+  max-width: 150px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 6px;
   z-index: 50;
